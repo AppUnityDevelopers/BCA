@@ -2,14 +2,14 @@
     <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.kryptosmobile.IND1762" version   = "1.0.0">
-        <name>Test</name>
-        <description>Test</description>
+        <name>BCA Institute</name>
+        <description>BCA Institute</description>
         <author href="http://kryptosmobile.com" email="info@kryptosmobile.com">Kryptos Mobile Team</author>
         <feature name="http://api.phonegap.com/1.0/device" />
         <preference name="permissions"                value="none"/>
-        <preference name="Orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+        <preference name="Orientation"                value="Portrait" />        <!-- all: default means both landscape and portrait are enabled -->
         <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-        <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+        <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
         <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
         <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
         <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
